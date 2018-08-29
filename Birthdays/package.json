@@ -1,0 +1,34 @@
+{
+  "name": "birthdays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "config": {
+    "aws": {
+      "profile": "default",
+      "region": "ap-northeast-1",
+      "lambda": {
+        "name": "Birthdays"
+      }
+    },
+    "outDir": "./dist"
+  },
+  "scripts": {
+    "clean": "rm -rf $npm_package_config_outDir",
+    "build": "./node_modules/.bin/tsc",
+    "package": "npm run clean && npm run build && npm run package:install && npm run package:zip",
+    "package:install": "cp -r package.json package-lock.json $npm_package_config_outDir/ && npm install --production --prefix $npm_package_config_outDir",
+    "package:zip": "pushd $npm_package_config_outDir >> /dev/null && zip -r ./$npm_package_name.zip $npm_package_main node_modules && popd >> /dev/null",
+    "deploy": "aws lambda update-function-code --profile $npm_package_config_aws_profile --region $npm_package_config_aws_region --function-name $npm_package_config_aws_lambda_name --zip-file fileb://\"$(pwd)\"/$npm_package_config_outDir/$npm_package_name.zip --publish"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.0.7",
+    "ask-sdk-model": "^1.4.0",
+    "aws-sdk": "^2.284.1",
+    "typed-rest-client": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.7",
+    "@types/node": "^10.3.6",
+    "typescript": "^2.9.2"
+  }
+}
