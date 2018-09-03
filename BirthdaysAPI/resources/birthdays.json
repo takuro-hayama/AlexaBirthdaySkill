@@ -2,12 +2,14 @@
   {
     "name": "Mr.マリック",
     "id": 1,
-    "birthday": "1月1日"
+    "birthday": "1月1日",
+    "synonymWords": ["ミスターマリック"]
   },
   {
     "name": "堂本光一",
     "id": 2,
-    "birthday": "1月1日"
+    "birthday": "1月1日",
+    "synonymWords": ["光一"]
   },
   {
     "name": "竹野内豊",
@@ -87,7 +89,8 @@
   {
     "name": "田村亮",
     "id": 18,
-    "birthday": "1月8日"
+    "birthday": "1月8日",
+    "synonymWords": ["ロンブー亮"]
   },
   {
     "name": "岡本真夜",
@@ -97,7 +100,8 @@
   {
     "name": "山口達也",
     "id": 20,
-    "birthday": "1月10日"
+    "birthday": "1月10日",
+    "synonymWords": ["山口メンバー"]
   },
   {
     "name": "内海光司",
@@ -177,22 +181,26 @@
   {
     "name": "ビートたけし",
     "id": 36,
-    "birthday": "1月18日"
+    "birthday": "1月18日",
+    "synonymWords": ["北野武"]
   },
   {
     "name": "笑福亭鶴光",
     "id": 37,
-    "birthday": "1月18日"
+    "birthday": "1月18日",
+    "synonymWords": ["鶴光"]
   },
   {
     "name": "松任谷由実",
     "id": 38,
-    "birthday": "1月19日"
+    "birthday": "1月19日",
+    "synonymWords": ["ユーミン"]
   },
   {
     "name": "ウド鈴木",
     "id": 39,
-    "birthday": "1月19日"
+    "birthday": "1月19日",
+    "synonymWords": ["ウド"]
   },
   {
     "name": "宇多田ヒカル",
@@ -202,7 +210,8 @@
   {
     "name": "上島竜兵",
     "id": 41,
-    "birthday": "1月20日"
+    "birthday": "1月20日",
+    "synonymWords": ["竜ちゃん"]
   },
   {
     "name": "矢口真里",
@@ -252,7 +261,8 @@
   {
     "name": "hitomi",
     "id": 51,
-    "birthday": "1月26日"
+    "birthday": "1月26日",
+    "synonymWords": ["ヒトミ"]
   },
   {
     "name": "小柳ゆき",
@@ -267,7 +277,8 @@
   {
     "name": "新庄剛志",
     "id": 54,
-    "birthday": "1月28日"
+    "birthday": "1月28日",
+    "synonymWords": ["新庄"]
   },
   {
     "name": "佐藤琢磨",
@@ -282,7 +293,8 @@
   {
     "name": "hyde",
     "id": 57,
-    "birthday": "1月29日"
+    "birthday": "1月29日",
+    "synonymWords": ["ハイド"]
   },
   {
     "name": "石川さゆり",
@@ -312,7 +324,8 @@
   {
     "name": "劇団ひとり",
     "id": 63,
-    "birthday": "2月2日"
+    "birthday": "2月2日",
+    "synonymWords": ["川島省吾"]
   },
   {
     "name": "浅尾美和",
@@ -377,7 +390,8 @@
   {
     "name": "ラモス瑠偉",
     "id": 76,
-    "birthday": "2月9日"
+    "birthday": "2月9日",
+    "synonymWords": ["ラモス"]
   },
   {
     "name": "安西ひろこ",
@@ -402,7 +416,8 @@
   {
     "name": "鳩山由紀夫",
     "id": 81,
-    "birthday": "2月11日"
+    "birthday": "2月11日",
+    "synonymWords": ["ぽっぽ"]
   },
   {
     "name": "山本モナ",
@@ -427,22 +442,26 @@
   {
     "name": "出川哲朗",
     "id": 86,
-    "birthday": "2月13日"
+    "birthday": "2月13日",
+    "synonymWords": ["出川"]
   },
   {
     "name": "南原清隆",
     "id": 87,
-    "birthday": "2月13日"
+    "birthday": "2月13日",
+    "synonymWords": ["ナンチャン"]
   },
   {
     "name": "酒井法子",
     "id": 88,
-    "birthday": "2月14日"
+    "birthday": "2月14日",
+    "synonymWords": ["のりピー"]
   },
   {
     "name": "もう中学生",
     "id": 89,
-    "birthday": "2月14日"
+    "birthday": "2月14日",
+    "synonymWords": ["もうちゅう"]
   },
   {
     "name": "浅田美代子",
@@ -452,7 +471,8 @@
   {
     "name": "インリン・オブ・ジョイトイ",
     "id": 91,
-    "birthday": "2月15日"
+    "birthday": "2月15日",
+    "synonymWords": ["インリン"]
   },
   {
     "name": "中村俊介",
@@ -467,7 +487,8 @@
   {
     "name": "YUKI",
     "id": 94,
-    "birthday": "2月17日"
+    "birthday": "2月17日",
+    "synonymWords": ["ユキ"]
   },
   {
     "name": "ねづっち",
@@ -487,12 +508,14 @@
   {
     "name": "長嶋茂雄",
     "id": 98,
-    "birthday": "2月20日"
+    "birthday": "2月20日",
+    "synonymWords": ["ミスター"]
   },
   {
     "name": "アントニオ猪木",
     "id": 99,
-    "birthday": "2月20日"
+    "birthday": "2月20日",
+    "synonymWords": ["猪木"]
   },
   {
     "name": "志村けん",
@@ -547,7 +570,8 @@
   {
     "name": "藤本美貴",
     "id": 110,
-    "birthday": "2月26日"
+    "birthday": "2月26日",
+    "synonymWords": ["ミキティー"]
   },
   {
     "name": "グッチ裕三",
@@ -652,7 +676,8 @@
   {
     "name": "木梨憲武",
     "id": 131,
-    "birthday": "3月9日"
+    "birthday": "3月9日",
+    "synonymWords": ["のりさん"]
   },
   {
     "name": "松田聖子",
@@ -672,7 +697,8 @@
   {
     "name": "魔裟斗",
     "id": 135,
-    "birthday": "3月10日"
+    "birthday": "3月10日",
+    "synonymWords": ["マサト"]
   },
   {
     "name": "杉浦太陽",
@@ -717,7 +743,8 @@
   {
     "name": "勝俣州和",
     "id": 144,
-    "birthday": "3月12日"
+    "birthday": "3月12日",
+    "synonymWords": ["勝俣","かっちゃん"]
   },
   {
     "name": "ユースケサンタマリア",
@@ -942,7 +969,8 @@
   {
     "name": "タカ",
     "id": 189,
-    "birthday": "4月3日"
+    "birthday": "4月3日",
+    "synonymWords": ["タカトシタカ"]
   },
   {
     "name": "細木数子",
@@ -1002,7 +1030,8 @@
   {
     "name": "DAIGO",
     "id": 201,
-    "birthday": "4月8日"
+    "birthday": "4月8日",
+    "synonymWords": ["ダイゴ"]
   },
   {
     "name": "沢尻エリカ",
@@ -1022,7 +1051,8 @@
   {
     "name": "和田アキ子",
     "id": 205,
-    "birthday": "4月10日"
+    "birthday": "4月10日",
+    "synonymWords": ["あっこさん"]
   },
   {
     "name": "さだまさし",
@@ -1092,12 +1122,14 @@
   {
     "name": "徳井義実",
     "id": 219,
-    "birthday": "4月16日"
+    "birthday": "4月16日",
+    "synonymWords": ["チュートリアル徳井"]
   },
   {
     "name": "ゴルゴ松本",
     "id": 220,
-    "birthday": "4月17日"
+    "birthday": "4月17日",
+    "synonymWords": ["TIMゴルゴ"]
   },
   {
     "name": "上地雄輔",
@@ -1107,12 +1139,14 @@
   {
     "name": "マリア・シャラポワ",
     "id": 222,
-    "birthday": "4月19日"
+    "birthday": "4月19日",
+    "synonymWords": ["シャラポワ","シャラポア"]
   },
   {
     "name": "小嶋陽菜",
     "id": 223,
-    "birthday": "4月19日"
+    "birthday": "4月19日",
+    "synonymWords": ["こじはる"]
   },
   {
     "name": "HIRO",
@@ -1122,7 +1156,8 @@
   {
     "name": "安田美沙子",
     "id": 225,
-    "birthday": "4月21日"
+    "birthday": "4月21日",
+    "synonymWords": ["みちゃこ"]
   },
   {
     "name": "中田翔",
@@ -1152,7 +1187,8 @@
   {
     "name": "田中直樹",
     "id": 231,
-    "birthday": "4月26日"
+    "birthday": "4月26日",
+    "synonymWords": ["ココリコ田中"]
   },
   {
     "name": "原千晶",
@@ -1222,12 +1258,14 @@
   {
     "name": "中川翔子",
     "id": 245,
-    "birthday": "5月5日"
+    "birthday": "5月5日",
+    "synonymWords": ["しょこたん"]
   },
   {
     "name": "高橋尚子",
     "id": 246,
-    "birthday": "5月6日"
+    "birthday": "5月6日",
+    "synonymWords": ["Qちゃん"]
   },
   {
     "name": "押尾学",
@@ -1237,7 +1275,8 @@
   {
     "name": "萩本欽一",
     "id": 248,
-    "birthday": "5月7日"
+    "birthday": "5月7日",
+    "synonymWords": ["きんちゃん"]
   },
   {
     "name": "上田晋也",
@@ -1252,7 +1291,8 @@
   {
     "name": "窪塚洋介",
     "id": 251,
-    "birthday": "5月7日"
+    "birthday": "5月7日",
+    "synonymWords": ["窪塚"]
   },
   {
     "name": "紺野あさ美",
@@ -1262,7 +1302,8 @@
   {
     "name": "曙太郎",
     "id": 253,
-    "birthday": "5月8日"
+    "birthday": "5月8日",
+    "synonymWords": ["曙","あけぼの"]
   },
   {
     "name": "森光子",
@@ -1287,12 +1328,14 @@
   {
     "name": "浜田雅功",
     "id": 259,
-    "birthday": "5月11日"
+    "birthday": "5月11日",
+    "synonymWords": ["浜ちゃん"]
   },
   {
     "name": "マイケル",
     "id": 260,
-    "birthday": "5月12日"
+    "birthday": "5月12日",
+    "synonymWords": ["まいける"]
   },
   {
     "name": "福田薫",
@@ -1337,7 +1380,8 @@
   {
     "name": "南明奈",
     "id": 269,
-    "birthday": "5月15日"
+    "birthday": "5月15日",
+    "synonymWords": ["アッキーナ"]
   },
   {
     "name": "酒井彩名",
@@ -1637,7 +1681,8 @@
   {
     "name": "ほんこん",
     "id": 329,
-    "birthday": "6月16日"
+    "birthday": "6月16日",
+    "synonymWords": ["ホンコン"]
   },
   {
     "name": "二宮和也",
@@ -1657,7 +1702,8 @@
   {
     "name": "KABAちゃん",
     "id": 333,
-    "birthday": "6月19日"
+    "birthday": "6月19日",
+    "synonymWords": ["カバちゃん"]
   },
   {
     "name": "中澤裕子",
@@ -1717,7 +1763,8 @@
   {
     "name": "松浦亜弥",
     "id": 345,
-    "birthday": "6月25日"
+    "birthday": "6月25日",
+    "synonymWords": ["あやや"]
   },
   {
     "name": "ドクター中松",
@@ -1777,7 +1824,8 @@
   {
     "name": "江頭2:50",
     "id": 357,
-    "birthday": "7月1日"
+    "birthday": "7月1日",
+    "synonymWords": ["えがちゃん"]
   },
   {
     "name": "西川きよし",
@@ -1802,12 +1850,14 @@
   {
     "name": "板野友美",
     "id": 362,
-    "birthday": "7月3日"
+    "birthday": "7月3日",
+    "synonymWords": ["ともちん"]
   },
   {
     "name": "GACKT",
     "id": 363,
-    "birthday": "7月4日"
+    "birthday": "7月4日",
+    "synonymWords": ["ガクト"]
   },
   {
     "name": "赤西仁",
@@ -1842,7 +1892,8 @@
   {
     "name": "MISIA",
     "id": 370,
-    "birthday": "7月7日"
+    "birthday": "7月7日",
+    "synonymWords": ["ミーシャ"]
   },
   {
     "name": "三谷幸喜",
@@ -1857,7 +1908,8 @@
   {
     "name": "草なぎ剛",
     "id": 373,
-    "birthday": "7月9日"
+    "birthday": "7月9日",
+    "synonymWords": ["草彅剛"]
   },
   {
     "name": "小泉孝太郎",
@@ -1937,7 +1989,8 @@
   {
     "name": "トシ",
     "id": 389,
-    "birthday": "7月17日"
+    "birthday": "7月17日",
+    "synonymWords": ["タカトシのトシ"]
   },
   {
     "name": "広末涼子",
@@ -1950,7 +2003,7 @@
     "birthday": "7月19日"
   },
   {
-    "name": "藤木 直人",
+    "name": "藤木直人",
     "id": 392,
     "birthday": "7月19日"
   },
@@ -1977,17 +2030,20 @@
   {
     "name": "森公美子",
     "id": 397,
-    "birthday": "7月22日"
+    "birthday": "7月22日",
+    "synonymWords": ["モリクミ"]
   },
   {
     "name": "内村光良",
     "id": 398,
-    "birthday": "7月22日"
+    "birthday": "7月22日",
+    "synonymWords": ["ウッチャン"]
   },
   {
     "name": "長谷川京子",
     "id": 399,
-    "birthday": "7月22日"
+    "birthday": "7月22日",
+    "synonymWords": ["ハセキョー"]
   },
   {
     "name": "松方弘樹",
@@ -2067,7 +2123,8 @@
   {
     "name": "バラクオバマ",
     "id": 415,
-    "birthday": "8月4日"
+    "birthday": "8月4日",
+    "synonymWords": ["オバマ","オバマ大統領"]
   },
   {
     "name": "鈴木蘭々",
@@ -2087,7 +2144,8 @@
   {
     "name": "さかなクン",
     "id": 419,
-    "birthday": "8月6日"
+    "birthday": "8月6日",
+    "synonymWords": ["さかなクンさん"]
   },
   {
     "name": "奥菜恵",
@@ -2122,12 +2180,14 @@
   {
     "name": "速水もこみち",
     "id": 426,
-    "birthday": "8月10日"
+    "birthday": "8月10日",
+    "synonymWords": ["もこみち"]
   },
   {
     "name": "孫正義",
     "id": 427,
-    "birthday": "8月11日"
+    "birthday": "8月11日",
+    "synonymWords": ["ハゲ"]
   },
   {
     "name": "陣内孝則",
@@ -2157,7 +2217,8 @@
   {
     "name": "桂歌丸",
     "id": 433,
-    "birthday": "8月14日"
+    "birthday": "8月14日",
+    "synonymWords": ["歌丸師匠"]
   },
   {
     "name": "鈴木Q太郎",
@@ -2187,7 +2248,8 @@
   {
     "name": "ダルビッシュ有",
     "id": 439,
-    "birthday": "8月16日"
+    "birthday": "8月16日",
+    "synonymWords": ["ダルビッシュ"]
   },
   {
     "name": "華原朋美",
@@ -2252,7 +2314,8 @@
   {
     "name": "関根勤",
     "id": 452,
-    "birthday": "8月21日"
+    "birthday": "8月21日",
+    "synonymWords": ["関根さん"]
   },
   {
     "name": "みのもんた",
@@ -2262,7 +2325,8 @@
   {
     "name": "タモリ",
     "id": 454,
-    "birthday": "8月22日"
+    "birthday": "8月22日",
+    "synonymWords": ["森田一義","タモさん"]
   },
   {
     "name": "なべやかん",
@@ -2327,7 +2391,8 @@
   {
     "name": "松本潤",
     "id": 467,
-    "birthday": "8月30日"
+    "birthday": "8月30日",
+    "synonymWords": ["まつじゅん"]
   },
   {
     "name": "アニマル浜口",
@@ -2337,7 +2402,8 @@
   {
     "name": "田代まさし",
     "id": 469,
-    "birthday": "8月31日"
+    "birthday": "8月31日",
+    "synonymWords": ["まーしー"]
   },
   {
     "name": "野茂英雄",
@@ -2412,7 +2478,8 @@
   {
     "name": "谷亮子",
     "id": 484,
-    "birthday": "9月6日"
+    "birthday": "9月6日",
+    "synonymWords": ["やわらちゃん"]
   },
   {
     "name": "氷川きよし",
@@ -2432,7 +2499,8 @@
   {
     "name": "松本人志",
     "id": 488,
-    "birthday": "9月8日"
+    "birthday": "9月8日",
+    "synonymWords": ["まっちゃん"]
   },
   {
     "name": "酒井若菜",
@@ -2467,7 +2535,8 @@
   {
     "name": "鳩山邦夫",
     "id": 495,
-    "birthday": "9月13日"
+    "birthday": "9月13日",
+    "synonymWords": ["ぽっぽ"]
   },
   {
     "name": "玉置浩二",
@@ -2482,7 +2551,8 @@
   {
     "name": "矢沢永吉",
     "id": 498,
-    "birthday": "9月14日"
+    "birthday": "9月14日",
+    "synonymWords": ["えいちゃん"]
   },
   {
     "name": "パッパラー河合",
@@ -2517,7 +2587,8 @@
   {
     "name": "東国原英夫",
     "id": 505,
-    "birthday": "9月16日"
+    "birthday": "9月16日",
+    "synonymWords": ["そのまんま東"]
   },
   {
     "name": "宮川大輔",
@@ -2572,12 +2643,14 @@
   {
     "name": "安室奈美恵",
     "id": 516,
-    "birthday": "9月20日"
+    "birthday": "9月20日",
+    "synonymWords": ["安室ちゃん"]
   },
   {
     "name": "安倍晋三",
     "id": 517,
-    "birthday": "9月21日"
+    "birthday": "9月21日",
+    "synonymWords": ["安倍首相"]
   },
   {
     "name": "ボブ・サップ",
@@ -2632,12 +2705,14 @@
   {
     "name": "MEGUMI",
     "id": 528,
-    "birthday": "9月25日"
+    "birthday": "9月25日",
+    "synonymWords": ["メグミ"]
   },
   {
     "name": "時東ぁみ",
     "id": 529,
-    "birthday": "9月25日"
+    "birthday": "9月25日",
+    "synonymWords": ["時東あみ"]
   },
   {
     "name": "浅田真央",
@@ -2657,7 +2732,8 @@
   {
     "name": "朝青龍明徳",
     "id": 533,
-    "birthday": "9月27日"
+    "birthday": "9月27日",
+    "synonymWords": ["朝青龍"]
   },
   {
     "name": "渡辺美奈代",
@@ -2767,7 +2843,8 @@
   {
     "name": "菅直人",
     "id": 555,
-    "birthday": "10月10日"
+    "birthday": "10月10日",
+    "synonymWords": ["かんちょくと"]
   },
   {
     "name": "風見しんご",
@@ -2802,7 +2879,8 @@
   {
     "name": "misono",
     "id": 562,
-    "birthday": "10月13日"
+    "birthday": "10月13日",
+    "synonymWords": ["みその"]
   },
   {
     "name": "益若つばさ",
@@ -2827,7 +2905,8 @@
   {
     "name": "大山のぶ代",
     "id": 567,
-    "birthday": "10月16日"
+    "birthday": "10月16日",
+    "synonymWords": ["どらえもんの声"]
   },
   {
     "name": "ミスターちん",
@@ -2837,7 +2916,8 @@
   {
     "name": "武蔵",
     "id": 569,
-    "birthday": "10月17日"
+    "birthday": "10月17日",
+    "synonymWords": ["むさし"]
   },
   {
     "name": "大島優子",
@@ -2912,7 +2992,8 @@
   {
     "name": "ラッキィ池田",
     "id": 584,
-    "birthday": "10月25日"
+    "birthday": "10月25日",
+    "synonymWords": ["ラッキー池田"]
   },
   {
     "name": "チャック・ウィルソン",
@@ -2957,12 +3038,14 @@
   {
     "name": "堀江貴文",
     "id": 593,
-    "birthday": "10月29日"
+    "birthday": "10月29日",
+    "synonymWords": ["ホリエモン"]
   },
   {
     "name": "つんく♂",
     "id": 594,
-    "birthday": "10月30日"
+    "birthday": "10月30日",
+    "synonymWords": ["つんく"]
   },
   {
     "name": "仲間由紀恵",
@@ -3027,7 +3110,8 @@
   {
     "name": "BoA",
     "id": 607,
-    "birthday": "11月5日"
+    "birthday": "11月5日",
+    "synonymWords": ["ボア"]
   },
   {
     "name": "松岡修造",
@@ -3167,7 +3251,8 @@
   {
     "name": "YOSHIKI",
     "id": 635,
-    "birthday": "11月20日"
+    "birthday": "11月20日",
+    "synonymWords": ["よしき"]
   },
   {
     "name": "小池栄子",
@@ -3182,7 +3267,8 @@
   {
     "name": "aiko",
     "id": 638,
-    "birthday": "11月22日"
+    "birthday": "11月22日",
+    "synonymWords": ["あいこ"]
   },
   {
     "name": "小森純",
@@ -3202,7 +3288,8 @@
   {
     "name": "寺門ジモン",
     "id": 642,
-    "birthday": "11月25日"
+    "birthday": "11月25日",
+    "synonymWords": ["ジモンちゃん"]
   },
   {
     "name": "椎名林檎",
@@ -3232,7 +3319,8 @@
   {
     "name": "松平健",
     "id": 648,
-    "birthday": "11月28日"
+    "birthday": "11月28日",
+    "synonymWords": ["マツケン"]
   },
   {
     "name": "林家ペー",
@@ -3302,7 +3390,8 @@
   {
     "name": "市川海老蔵",
     "id": 662,
-    "birthday": "12月6日"
+    "birthday": "12月6日",
+    "synonymWords": ["海老蔵"]
   },
   {
     "name": "古舘伊知郎",
@@ -3542,6 +3631,7 @@
   {
     "name": "KONISHIKI",
     "id": 710,
-    "birthday": "12月31日"
+    "birthday": "12月31日",
+    "synonymWords": ["こにしき"]
   }
 ]

@@ -50,33 +50,49 @@ const LaunchRequestHandler = {
 
 const BirthdaysIntentHandler = {
     canHandle(handlerInput: HandlerInput) {
-        // console.log('BirthdaysIntentHandler　canHandle');
-        // console.log(handlerInput.requestEnvelope.request.type);
-        // const request = handlerInput.requestEnvelope.request as IntentRequest;
-        // console.log(request.intent.name);
-
+        console.log('BirthdaysIntentHandler　canHandle');
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
              && handlerInput.requestEnvelope.request.intent.name === 'Birthdays';
     },
     async handle(handlerInput: HandlerInput) {
-
-        console.log('handle');
         const request = handlerInput.requestEnvelope.request as IntentRequest;
         const slot = request.intent.slots!![ 'whosName' ];
-        console.log(slot);
-        const resolution = slot.resolutions!!.resolutionsPerAuthority!!.find(resolution => {
-            return resolution.status.code === 'ER_SUCCESS_MATCH';
-        })!!;
-        const name = resolution.values[ 0 ].value.name;
-        // const name = slot.value
+
+        var resolution = null;
+        var name = null;
+        if (slot.resolutions != null) {
+            resolution = slot.resolutions!!.resolutionsPerAuthority!!.find(resolution => {
+                return resolution.status.code === 'ER_SUCCESS_MATCH';
+            })!!;    
+
+            if (resolution != null) {
+                name = resolution.values[ 0 ].value.name;
+            }
+        }
+        
+        if (name == null) {
+            name = slot.value;
+        }
+
         const birthday = await getBirthdayInfo(name);
-        const title = '誕生日検索';
-        const text = `${slot.value}の誕生日は${birthday.birthday}です`;
-        return handlerInput.responseBuilder
-            .speak(text)
-            .withSimpleCard(title, text)
-            .withShouldEndSession(false)
-            .getResponse();
+
+        if (birthday.birthday == null) {
+            const title = '誕生日検索';
+            const text = `すみません。${name}の誕生日はわかりません。調べておきます。`;
+            return handlerInput.responseBuilder
+                .speak(text)
+                .withSimpleCard(title, text)
+                .withShouldEndSession(false)
+                .getResponse();
+        } else {
+            const title = '誕生日検索';
+            const text = `${name}の誕生日は${birthday.birthday}です`;
+            return handlerInput.responseBuilder
+                .speak(text)
+                .withSimpleCard(title, text)
+                .withShouldEndSession(false)
+                .getResponse();
+        }
     }
 };
 
@@ -88,7 +104,7 @@ const HelpIntentHandler = {
     },
     handle(handlerInput: HandlerInput) {
         const title = '誕生日検索';
-        const text = '有名人の誕生日をお伝えします。例えば、Mr.マリックの誕生日を教えて、と言ってみてください。';
+        const text = '有名人の誕生日をお伝えします。例えば、ビートたけしの誕生日を教えて、と言ってみてください。';
         return handlerInput.responseBuilder
             .speak(text)
             .reprompt(text)
@@ -138,8 +154,8 @@ const ErrorHandler = {
     handle(handlerInput: HandlerInput, error: Error) {
         console.log(`Error handled: ${error.message}`);
         return handlerInput.responseBuilder
-            .speak('すいません。もう一度おっしゃってみてください。')
-            .reprompt('すいません。もう一度おっしゃってみてください。')
+            .speak('すみません。もう一度おっしゃってみてください。')
+            .reprompt('すみません。もう一度おっしゃってみてください。')
             .getResponse();
     }
 };
