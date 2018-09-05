@@ -71,14 +71,24 @@ const BirthdaysIntentHandler = {
         }
         
         if (name == null) {
-            name = slot.value;
+            if (slot.value != null) {
+                name = slot.value;
+            } else {
+                const title = '誕生日検索';
+                const text = `誰の誕生日を知りたいですか？`;
+                return handlerInput.responseBuilder
+                    .speak(text)
+                    .withSimpleCard(title, text)
+                    .withShouldEndSession(false)
+                    .getResponse();
+            }
         }
 
         const birthday = await getBirthdayInfo(name);
 
         if (birthday.birthday == null) {
             const title = '誕生日検索';
-            const text = `すみません。${name}の誕生日はわかりません。調べておきます。`;
+            const text = `すみません。${name}の誕生日はわかりません。調べておきます。他にも聞きたいですか？`;
             return handlerInput.responseBuilder
                 .speak(text)
                 .withSimpleCard(title, text)
@@ -86,7 +96,7 @@ const BirthdaysIntentHandler = {
                 .getResponse();
         } else {
             const title = '誕生日検索';
-            const text = `${name}の誕生日は${birthday.birthday}です`;
+            const text = `${name}の誕生日は${birthday.birthday}です。他にも聞きたいですか？`;
             return handlerInput.responseBuilder
                 .speak(text)
                 .withSimpleCard(title, text)
@@ -156,6 +166,7 @@ const ErrorHandler = {
         return handlerInput.responseBuilder
             .speak('すみません。もう一度おっしゃってみてください。')
             .reprompt('すみません。もう一度おっしゃってみてください。')
+            .withShouldEndSession(true)
             .getResponse();
     }
 };
