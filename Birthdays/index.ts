@@ -2,10 +2,7 @@ import { HandlerInput, SkillBuilders } from 'ask-sdk-core';
 import { IntentRequest, SessionEndedRequest } from 'ask-sdk-model';
 import { HttpClient, HttpClientResponse } from 'typed-rest-client/HttpClient';
 
-// const endpoint = 'https://6wvsbvia67.execute-api.ap-northeast-1.amazonaws.com/v1/ts/proxy/birthday';
 const endpoint = 'https://6wvsbvia67.execute-api.ap-northeast-1.amazonaws.com/v1/ts/proxy';
-// const endpoint = "https://6wvsbvia67.execute-api.ap-northeast-1.amazonaws.com/BirthdayStage/ts/proxy/name";
-
 const client = new HttpClient('Birthdays');
 
 interface BirthdayResponse {
@@ -39,7 +36,7 @@ const LaunchRequestHandler = {
     },
     handle(handlerInput: HandlerInput) {
         const title = '誕生日検索';
-        const text = 'ようこそ、誕生日検索へ。有名人の誕生日を調べられます。';
+        const text = 'ようこそ、誕生日検索へ。有名人の誕生日を調べられます。誰の誕生日を知りたいですか？';
         return handlerInput.responseBuilder
             .speak(text)
             .reprompt(text)
